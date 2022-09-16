@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="logo.png" alt="Spotify">SoundNode</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="songList">
+            <h1>Best of Weeknd Songs</h1>
+            <div class ="songListContainer">
+                <div class="songItem">
+                    <img src="covers/10.jpg" alt="1">
+                    <span>Love Me Harder</span>
+                    <span class = "songListPlay"><span class ="timestamp">03:35 <i class="fa-solid fa-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/3.jpg" alt="1">
+                    <span>Reminder</span>
+                    <span class = "songListPlay"><span class ="timestamp">04:40 <i class="fa-solid fa-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/5.jpg" alt="1">
+                    <span>Starboy</span>
+                    <span class = "songListPlay"><span class ="timestamp">03:55 <i class="fa-solid fa-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/6.jpg" alt="1">
+                    <span>After Hours</span>
+                    <span class = "songListPlay"><span class ="timestamp">06:35 <i class="fa-solid fa-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/7.jpg" alt="1">
+                    <span>Faith</span>
+                    <span class = "songListPlay"><span class ="timestamp">05:45 <i class="fa-solid fa-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/81.jpg" alt="1">
+                    <span>KISS-MAT</span>
+                    <span class = "songListPlay"><span class ="timestamp">04:00 <i class="fa-solid fa-play"></i></span></span>
+                </div>
+            </div>
+        </div>
+        <div class="songBanner">
+
+        </div>
+    </div> 
+
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min = "0" max = "100">
+        <div class="icons">
+            <!-- Font-Awesome -->
+            <i class="fa-solid fa-2x fa-backward-step"></i>
+            <i class="fa-solid fa-2x fa-play" id ="masterPlay"></i>
+            <i class="fa-solid fa-2x fa-forward-step"></i>
+        </div>
+        <div class="songInfo">
+            <img class ="gif" src="playing.gif" alt="">Love Me Harder - Weeknd,Ariana Grande
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/96e1e52653.js" crossorigin="anonymous"></script>
+    <script src = "script.js"></script>
+</body>
+</html>
